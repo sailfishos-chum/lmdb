@@ -9,7 +9,6 @@ Source0:        %{name}-%{version}.tar.bz2
 Source1:        lmdb.pc.in
 # Patch description in the corresponding file
 Patch1:         lmdb-make.patch
-Patch2:         lmdb-s390-check.patch
 
 BuildRequires:  make
 BuildRequires:  gcc
